@@ -1,0 +1,17 @@
+[20-Aug-2016 10:19:47 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 10:19:53 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 10:19:58 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 10:22:20 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 10:25:17 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 11:08:25 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 11:13:58 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 11:14:02 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 11:14:03 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 11:14:05 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 11:14:06 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 11:14:07 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[20-Aug-2016 11:14:44 UTC] PHP Parse error:  syntax error, unexpected '@', expecting ']' in /home/dalip/public_html/dev/config/mail.php on line 57
+[22-Aug-2016 04:38:49 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/dalip/public_html/dev/app/Http/Controllers/submit.php on line 28
+[22-Aug-2016 04:38:49 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/dalip/public_html/dev/app/Http/Controllers/submit.php on line 28
+[22-Aug-2016 19:44:42 UTC] PHP Fatal error:  Call to a member function with() on a non-object in /home/dalip/public_html/dev/app/Http/Controllers/submit.php on line 28
+[22-Aug-2016 19:46:56 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/dalip/public_html/dev/app/Http/routes.php on line 27
