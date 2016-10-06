@@ -11,8 +11,8 @@
 	<meta name="description" content="A Web and Android Development Company" />
 	<meta name="keywords" content="websi, e-commerce, android, development, laravel,project" />
 	<meta name="author" content="Dalip Thkar, Nikhil Arora" />
-
-
+        <meta name="google-site-verification" content="gv62MpYcCckC-7MZHjxVPWorZGW4wv3C6COBtm7hC9U" />
+        <meta name="msvalidate.01" content="DD06AD7126BF44612123A0347D6B607F" />
   	<!-- Facebook and Twitter integration -->
 	<meta name="og_title" property="og:title" content="Web development| e-commerce development,android development,laravel,prestashop,wordpress development"/>
 	<meta name="og_image" property="og:image" content=""/>
@@ -983,7 +983,8 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
   ga('send', 'pageview');
 
 </script>
-
+ 
+<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="public/js/main.js"></script>
 
