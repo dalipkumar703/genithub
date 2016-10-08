@@ -10,9 +10,9 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<ul class="social social-circle">
-						<li><a href="#"><i class="icon-twitter"></i></a></li>
-						<li><a href="#"><i class="icon-facebook"></i></a></li>
-						<li><a href="#"><i class="icon-youtube"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/genithub"><i class="icon-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/genithub"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCYBM2L0pu9BFUN_eFq42oFw"><i class="icon-youtube"></i></a></li>
 					</ul>
 				</div>
 			</div>
