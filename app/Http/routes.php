@@ -40,5 +40,8 @@ Route::get('/nikhilarora',function() {
 Route::get('/saumyatiwari',function() {
   return view('saumyatiwari');
 });
+Route::get('feedback',function() {
+  return view('feedback');
+});
 });
 
