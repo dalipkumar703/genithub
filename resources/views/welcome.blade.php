@@ -6,30 +6,34 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>genIThub | Web & Android Development company in India</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="A Web and Android Development Company" />
-	<meta name="keywords" content="websi, e-commerce, android, development, laravel,project" />
+	<title>genIThub | Web-Android Development Company</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="description" content=" Web-Android Development Company in India." />
+	<meta name="keywords" content="OneStopShop, Web, Android, Web Development, Android Development, E-Commerce Development, Magento, Prestashop, Laravel, WordPress, Oxwall, PHP, HTML, CSS, HTML5, Java"/>
 	<meta name="author" content="Dalip Thkar, Nikhil Arora" />
         <meta name="google-site-verification" content="gv62MpYcCckC-7MZHjxVPWorZGW4wv3C6COBtm7hC9U" />
         <meta name="msvalidate.01" content="DD06AD7126BF44612123A0347D6B607F" />
+        <meta name="msvalidate.01" content="B316FE83386B965094DC742A527EF8F1" />
   	<!-- Facebook and Twitter integration -->
-	<meta name="og_title" property="og:title" content="Web development| e-commerce development,android development,laravel,prestashop,wordpress development"/>
-	<meta name="og_image" property="og:image" content=""/>
+	<meta name="og_title" property="og:title" content="genIThub.com | Web-Android Development Company"/>
+	<meta name="og_image" property="og:image" content="http://genithub.com/public/images/cardFront.jpg"/>
 	<meta name="og_url" property="og:url"  content="http://www.genithub.com"/>
-	<meta name="og_site_name" property="og:site_name" content="genIThub.com"/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
+	<meta name="og_site_name" property="og:site_name" content="genIThub"/>
+	<meta property="og:description" content="Web android Development company in india."/>
+	<meta name="twitter:title" content="genIThub.com | Web-Android Development Company" />
+	<meta name="twitter:image" content="http://genithub.com/public/images/cardFront.jpg" />
+	<meta name="twitter:url" content="http://www.genithub.com" />
+        
 	<meta name="twitter:card" content="" />
 
+        <meta name="p:domain_verify" content="9d4d5fe9dc8c026a89ea895891328256"/>
+
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="public/images/favicon.ico">
+	<link rel="shortcut icon" href="public/images/genithub.jpg">
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400 italic,700' rel='stylesheet' type='text/css'>
 	
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!--Bootstrap CDN -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -62,14 +66,14 @@
 
 	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
 	<link rel="stylesheet" id="theme-switch" href="public/css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        
+       
         
         <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+
 
 <link href="https://fonts.googleapis.com/css?family=Voltaire" rel="stylesheet">
 
@@ -143,13 +147,7 @@
             
             }
         </style>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-7399328105768820",
-    enable_page_level_ads: true
-  });
-</script>
+    
 	</head>
 	<body>
 	<header role="banner" id="fh5co-header">
@@ -158,17 +156,18 @@
 			    <nav class="navbar navbar-default">
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle visible-xs-block" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 					
-		         <a class="navbar-brand" href="index.html">genIThub</a> 
+		         <a class="navbar-brand" href="{{url('/')}}">genIThub</a> 
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
 		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
 		            <li><a href="#" data-nav-section="work"><span>Portfolio</span></a></li>
 		            <li><a href="#" data-nav-section="testimonials"><span>Testimonials</span></a></li>
-		            <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+		            
                             <li><a href="#" data-nav-section="blog"><span>Blog</span></a></li>
+                            <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
 		            <li><a href="#" data-nav-section="price"><span>Price</span></a></li>
                            
                             <li><a href="#" data-nav-section="about"><span>About</span></a></li>
@@ -230,7 +229,7 @@
      <span class="help-block">{{ $errors->first('service') }}</span>
                   </div>
          			<div class="form-group{{ $errors->has('reach') ? ' has-error' : '' }}">
-      <label for="reach_us">where  you heard genIThub</label>
+      <label for="reach_us">Where  you heard genithub?</label>
       <select class="form-control" id="reach_us" name="reach">
         <option value="choose">Select</option>
         <option value="blog">genIThub Blog</option>
@@ -336,11 +335,12 @@
 					</div>
 				</div>
 			</div>
+<!--
 			<div class="row watch-video text-center to-animate">
 				<span>Watch the video</span>
 
 				<a href="https://vimeo.com/179641133" class="popup-vimeo btn-video"><i class="icon-play2"></i></a>
-			</div>
+			</div>-->
                   
   
 		</div>
@@ -359,10 +359,13 @@
 				</div>
 			</div>
 			<div class="row row-bottom-padded-sm">
-				<div class="col-md-4 col-sm-6 col-xxs-12">
+<span class="blog-title text-center" style="display:block;">Web-Development</span>
+<br />
+                <div class="row">
+				<div class="col-md-6 col-sm-6 col-xxs-12">
                                                                                                      
-					<a href="public/images/rees52.jpg"  class="fh5co-project-item image-popup to-animate" >
-						<img src="public/images/rees52.jpg" alt="Image" class="img-responsive">
+					<a href="public/images/rees52.png"  class="fh5co-project-item image-popup to-animate" >
+						<img src="public/images/rees52.png" alt="Image" class="img-responsive">
 		                 	<div class="fh5co-text">
 						<h2>http://dev.rees52.com</h2>
                                                             
@@ -370,28 +373,43 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="public/images/bvulive.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="public/images/bvulive.jpg" alt="Image" class="img-responsive">
+				<div class="col-md-6 col-sm-6 col-xxs-12">
+					<a href="public/images/bvulive.png" class="fh5co-project-item image-popup to-animate">
+						<img src="public/images/bvulive.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>http://bvulive.in</h2>
 						<span>Website</span>
 						</div>
 					</a>
 				</div>
-                                <div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="public/images/ipuevent.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="public/images/ipuevent.jpg" alt="Image" class="img-responsive">
+				</div>
+				<div class="row">
+                                <div class="col-md-6 col-sm-6 col-xxs-12">
+					<a href="public/images/ipevents.png" class="fh5co-project-item image-popup to-animate">
+						<img src="public/images/ipevents.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>http://ezmart.in</h2>
 						<span>Website</span>
 						</div>
 					</a>
 				</div>
-
+                                <div class="col-md-6 col-sm-6 col-xxs-12">
+					<a href="public/images/loopback.png" class="fh5co-project-item image-popup to-animate">
+						<img src="public/images/loopback.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>http://loopback-services.com</h2>
+						<span>Website</span>
+						</div>
+					</a>
+				</div>
+                 </div>
+                    <div>&nbsp;<br></div>
+           		<div class="row text-center">
+           		<a style="text-decoration:none;" target="_blank" class="btn btn-primary btn-lg"  href="{{ url('portfolio')}}">More</a>
+           		</div>
 
 				<div class="clearfix visible-sm-block"></div>
-
+                                
 				
 				
 				
@@ -469,6 +487,10 @@
 				
 				
 			</div>
+     <div>&nbsp;<br></div>
+           		<div class="row text-center">
+           		<a style="text-decoration:none;" class="btn btn-primary btn-lg"  href="{{url('feedback')}}">Give Us Feedback</a>
+           		</div>	
 		</div>
 	</section>
 	  <section id="fh5co-work" data-section="blog" >
@@ -488,10 +510,11 @@
           
 		 <div class="col-md-6">
 					<div class="fh5co-person text-center to-animate text-center text-center" style="text-align: -moz-center;">
-						<img src="public/images/amp-post.jpg" alt="Accelerate Mobile Pages" class="img-responsive" style="max-height:257px"><br>
-						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/accelerated-mobile-pages/">Accelerated Mobile Pages (AMP) – What is it? How to use it?</a></span>
+						<img src="public/images/adsense.jpg" alt="Google AdSense" class="img-responsive" style="max-height:257px;margin: 0 auto;"><br>
+						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/google-adsense-basic/">Google’s AdSense – What is it? How to get started?</a></span>
+						<div style="line-height:195%;"><br/></div>
 						
-						<p>Nowadays, almost everyone of us are dependent on “The Internet“.  We all are thirsty of knowledge and why not be, when we can get to know anything in just a click. Also, the invent of smart-phone has further simplified the process. Now most of the web traffic comes from mobile instead of desktop. But there lies the problem, the web-pages on the mobile device...<br><br><a  target="_blank" class="btn btn-info" href="http://blog.genithub.com/accelerated-mobile-pages/" style="text-decoration:none;">Read More...</a>
+						<p>So you are a part-time blogger or a wannabe content writer looking to express themselves on the web or perhaps owner of an up and coming website but lack in resources for an ambitious sales strategy? Would you enjoy the prospect of getting paid for your content without any hassle of finding an advertiser or a...<div style="line-height:195%;"><br /></div><a  target="_blank" class="btn btn-info" href="http://blog.genithub.com/google-adsense-basic/" style="text-decoration:none;">Read More...</a>
 </p><br />
 						
 					</div>
@@ -500,36 +523,36 @@
 					<div class="fh5co-person text-center to-animate text-center" style="text-align: -moz-center;">
 					
 					
-						<img src="public/images/tinkering-post.jpg" alt="Whatsapp Tinkering" class="img-responsive" style="max-height:257px"><br>
+						<img src="public/images/grammarly.png" alt="Grammarly" class="img-responsive" style="max-height:257px;margin: 0 auto;"><br>
 						
-						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/tinkering-whatsapp-web-basic/">Tinkering WhatsApp | Basic | WhatsApp</a></span>
-						<div style="line-height:195%;"><br/></div>
-						<p>We all must have been using Instant Messengers for quite a long time now. The traditional way of using it (i.e.  typing out the message) is known by all of us but very few actually know about automating their Whatsapp. In this blog, we will learn about how we can automatically send messages by what we call tinkering Whatsapp...
-<br><br><a style="text-decoration:none;" class="btn btn-info" target="_blank" href="http://blog.genithub.com/tinkering-whatsapp-web-basic/">Read More...</a></p><br />
+						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/grammarly-free/">Grammarly – What is it? How to use it for free?</a></span>
+						<div style="line-height:195%;"><br/><br /></div>
 						
+
+<p>What is Grammarly?   Whether be a professional writer or a student, we all come across a few mistakes each time we start writing a piece of text. Also, there are times where we can’t afford to make any mistake. To counteract this problem, a tool has been developed, Grammarly! For a basic understanding...
+<div style="line-height:50%;"><br /></div><br><a style="text-decoration:none;" class="btn btn-info" target="_blank" href="http://blog.genithub.com/grammarly-free/">Read More...</a></p><br />
+					
 					</div>
 				</div>
 				</div><br>
                                 <div class="row">	
                                 <div class="col-md-6">
 					<div class="fh5co-person text-center to-animate text-center" style="text-align: -moz-center;">
-						<img src="public/images/google-view-post.png" alt="Google unveil secret" class="img-responsive" style="max-height:314px;"><br>
-						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/unveil-your-data-stored-by-google/">Unveil your data stored with Google</a></span>
+						<img src="public/images/torrenting.jpg" alt="Best Torrenting Sites 2016" class="img-responsive" style="max-height:245.5px;margin: 0 auto;"><br>
+						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/best-torrenting-sites-2016/">Best Torrenting Sites 2016
+</a></span><div style="line-height:195%;"><br/></div>
 						
-						<p>You switch on your laptop. Browse your stuffs. Shut down your system. Relax.
-WAIT.
-Did anything happen in between, which you failed to notice? No, I am not talking about the (embarrassing) browsing history recorded by your browser.
-Some of your data got stored, with Google, that too unknowingly. Is this something to worry about? Is there any way to know what that stored data is?
-Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn btn-info" target="_blank" href="http://blog.genithub.com/unveil-your-data-stored-by-google/">Read More...</a></p><br />
+						<p>Are you looking to download free stuff over the Internet, but not finding any convenient way to do it. No worries. Today, we have come-up with a collection of the best torrenting sites of 2016 that you are surely going to love. Disclaimer: We don’t advise anyone to download or distribute copyrighted or pirated material...<br><br><br><a style="text-decoration:none;" class="btn btn-info" target="_blank" href="http://blog.genithub.com/best-torrenting-sites-2016/">Read More...</a></p><br />
 						
 					</div>
 				</div>	
 <div class="col-md-6">
 					<div class="fh5co-person text-center to-animate text-center" style="text-align: -moz-center;">
-						<img src="public/images/digilocker-post.png" alt="Whatsapp tinkering" class="img-responsive" style="max-height:314px;"><br>
-						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/driving-licence-soft-copy/">Driving licence’s soft copy with DigiLocker</a></span>
-						<p>For most of us, forgetting original documents such as driving licence and vehicle registration certificate is a story of everyday. What gets more frustrating is coming across the traffic policeman at the same day. Understanding all this, Government has now allowed a digital locker app which will store soft copies of such documents so that you don’t have to worry about forgetting these things again. So, today’s post is dedicated to the topic “Driving licence’s soft copy with DigiLocker“ What… 
-<br /><br /><a style="text-decoration:none;" class="btn btn-info" target="_blank" href="http://blog.genithub.com/driving-licence-soft-copy/">Read More...</a></p><br />
+						<img src="public/images/adwords.png" alt="Google AdWords" class="img-responsive" style="max-height:245.5px;margin: 0 auto;"><br>
+						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/introduction-google-adwords/">Introduction to Google AdWords – What is it?</a></span>
+<div style="line-height:195%;"><br/></div>
+						<p>We all must have heard the term ” Digital Marketing “, which is nothing but marketing with the help of electronic media. Google AdWords is just another type of Digital Marketing technique used by businesses to drive users onto their website, thus increasing their sales. Today, we will introduce the notion of Google AdWords to...
+<br /><br /><br /><a style="text-decoration:none;" class="btn btn-info" target="_blank" href="http://blog.genithub.com/introduction-google-adwords/">Read More...</a></p><br />
 						
 					</div>
 				</div>		
@@ -560,12 +583,12 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 				
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-monitor"></i>
-					<h3>CMS &amp; eCommerce</h3>
+					<h3><a href="{{ url('ecommerce-development')}}" style="color:white;">CMS &amp; eCommerce</a></h3>
 					<p>Want to build an e-commerce platform or any other platform using CMS? Develop it with us and get to see our quality.</p>
 				</div>
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-layers2"></i>
-					<h3>Web &amp; SEO</h3>
+					<h3><a href="{{ url('web-design')}}" style="color:white;">Web &amp; SEO</a></h3>
 					<p>Looking for front-end or back-end development?  We are up there for you with a team of young blood. Get your product with a final polish of SEO. </p>
 				</div>
 
@@ -573,12 +596,12 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-video2"></i>
-					<h3>Photo &amp; Video</h3>
+					<h3><a href="{{ url('design')}}" style="color:white;">Photo &amp; Video</a></h3>
 					<p>Want good photoshop experts? Look no further. We provide top notch video and photo editing services as well.</p>
 				</div>
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 					<i class="icon to-animate-2 icon-android"></i>
-					<h3>Android Development</h3>
+					<h3><a href="{{ url('android-app-development')}}" style="color:white;">Android Development</a></h3>
 					<p>Thinking of having your own Android App? Build your app with us and be care free.</p>
 				</div>
 				
@@ -599,7 +622,7 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 		
 						<span class="title-price">Basic</span>
 <br>
-<p>Starting at <span class="price-style">Rs. 1299/-</span></p>
+<p>Starting at <span class="price-style">Rs. 1599/-</span></p>
 
 <hr>
 <p>1-5 page</p> 
@@ -636,7 +659,7 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 				<div class="col-md-3">
 					<div class="fh5co-person text-center to-animate" style="border-radius:40px;border-color:#616161;">
 						<span class="title-price">Standard</span>
-<br><p>Starting at <span class="price-style">Rs. 2799/-</span></p>
+<br><p>Starting at <span class="price-style">Rs. 3299/-</span></p>
 
 <hr>
  <p>6-10 pages</p>
@@ -668,7 +691,7 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 				<div class="col-md-3">
 					<div class="fh5co-person text-center to-animate" style="border-radius:40px;border-color:#616161;">
 						<span class="title-price">Enterprise</span><br>
-<p>Starting at <span class="price-style">Rs. 5999/-</span></p>
+<p>Starting at <span class="price-style">Rs. 6499/-</span></p>
 
 <hr>
  <p>Unlimited pages</p>
@@ -698,7 +721,7 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 				<div class="col-md-3">
 					<div class="fh5co-person text-center to-animate" style="border-radius:40px;border-color:#616161;">
 					<span class="title-price">E-Commerce</span><br>
-<p>Starting at <span class="price-style">Rs. 12999/-</span></p>
+<p>Starting at <span class="price-style">Rs. 17999/-</span></p>
  
 <hr>
  <p>100 products upload</p>
@@ -748,9 +771,9 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-6">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="public/images/nikhil.jpg" alt="Image"></figure>
+						<figure><img src="public/images/nikhil.jpg" alt="Nikhil Arora" class="img-responsive" style="max-height:120px;"></figure>
 						<h3>Nikhil Arora</h3>
 						<span class="fh5co-position">Developer</span>
 						<p>I have expertise in Wordpress, Oxwall, Android App Development, Laravel Framework. Loves to convert caffeine to code!</p>
@@ -761,24 +784,11 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-6">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="public/images/saumya.jpg" alt="Image"></figure>
-						<h3>Saumya Tiwari</h3>
-						<span class="fh5co-position">Documentation Head</span>
-						<p>I love to do creative writing and that is what I am entitled to do here. My skillset includes creative writing with website development.</p>
-						<ul class="social social-circle">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="https://www.facebook.com/saumya.tiwari.90" target="_blank"><i class="icon-facebook"></i></a></li>
-							<li><a href="#" target="_blank"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="fh5co-person text-center to-animate">
-						<figure><img src="public/images/dalip.jpg" alt="Image"></figure>
+						<figure><img src="public/images/dalip.jpg" alt="Dalip Kumar" class="img-responsive" style="max-height:120px;"></figure>
 						<h3>Dalip</h3>
-						<span class="fh5co-position">Developer</span>
+						<span class="fh5co-position">Web - Developer</span>
 						<p>My focus resides in developing e-commerce projects. Laravel Framework, SEO are some of the other weapons in my kit. </p>
 						<ul class="social social-circle">
 							<li><a href="https://twitter.com/dalipkumar703" target="_blank"><i class="icon-twitter"></i></a></li>
@@ -787,9 +797,27 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3">
+
+
+                          </div>
+                          <div class="row" style="margin-top:60px;">
+                               <div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="public/images/ashwin.jpg" alt="Image"></figure>
+						<figure><img src="public/images/saumya.jpg" alt="Saumya Tiwari" class="img-responsive" style="max-height:120px;"></figure>
+						<h3>Saumya Tiwari</h3>
+						<span class="fh5co-position">Documentation Head</span>
+						<p>I love to do creative writing and that is what I am entitled to do here. My skillset includes creative writing with website development.</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/saumya.tiwari.90" target="_blank"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/Saumya29" target="_blank"><i class="icon-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="public/images/ashwin.jpg" alt="Ashwin Jayaprakash" class="img-responsive" style="max-height:120px;"></figure>
 						<h3>Ashwin</h3>
 						<span class="fh5co-position">Creative Head</span>
 						<p>I am a creative writer by blood with a mix of android development. Be there to watch my piece of work!</p><br />
@@ -800,12 +828,25 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 						</ul>
 					</div>
 				</div>
+                                <div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="public/images/karan.jpg" alt="Karan Singh" class="img-responsive" style="max-height:120px;"></figure>
+						<h3>Karan Aulakh</h3>
+						<span class="fh5co-position">Marketing Head</span>
+						<p>Marketing is the word that defines me, be it of any type. The responsibility of representing this company at all levels lies on my shoulders.</p>
+						<ul class="social social-circle">
+							<li><a href="https://twitter.com/kaulakh2007"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/Aulakh.KS" target="_blank"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/karansaulakh" target="_blank"><i class="icon-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
 				
 			</div>
 		</div>
 	</section>
 	
-	<section id="fh5co-counters" style="background-image: url(public/images/full_images_1.jpg);" data-stellar-background-ratio="0.5">
+	<section id="fh5co-counters" style="" data-stellar-background-ratio="0.5">
 		<div class="fh5co-overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -814,33 +855,34 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<!--<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="fh5co-counter to-animate">
 						<i class="fh5co-counter-icon icon-briefcase to-animate-2"></i>
-						<span class="fh5co-counter-number js-counter" data-from="0" data-to="4" data-speed="5000" data-refresh-interval="50">4</span>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="7" data-speed="5000" data-refresh-interval="50">7</span>
 						<span class="fh5co-counter-label">Finished projects</span>
-					</div>
+					</div>-->
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-6 col-sm-6 col-xs-12">
 					<div class="fh5co-counter to-animate">
 						<i class="fh5co-counter-icon icon-code to-animate-2"></i>
-						<span class="fh5co-counter-number js-counter" data-from="0" data-to="3409" data-speed="5000" data-refresh-interval="50">3409</span>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="18759" data-speed="5000" data-refresh-interval="50">18759</span>
 						<span class="fh5co-counter-label">Line of codes</span>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-6 col-sm-6 col-xs-12">
 					<div class="fh5co-counter to-animate">
 						<i class="fh5co-counter-icon icon-cup to-animate-2"></i>
-						<span class="fh5co-counter-number js-counter" data-from="0" data-to="12" data-speed="5000" data-refresh-interval="50">12</span>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="87" data-speed="5000" data-refresh-interval="50">87</span>
 						<span class="fh5co-counter-label">Cup of coffees</span>
 					</div>
 				</div>
+<!--
 				<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="fh5co-counter to-animate">
 						<i class="fh5co-counter-icon icon-people to-animate-2"></i>
-						<span class="fh5co-counter-number js-counter" data-from="0" data-to="3" data-speed="5000" data-refresh-interval="50">3</span>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="6" data-speed="5000" data-refresh-interval="50">6</span>
 						<span class="fh5co-counter-label">Happy clients</span>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</div>
@@ -864,7 +906,7 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 					<ul class="fh5co-contact-info">
 						<li class="fh5co-contact-address ">
 							<i class="icon-home"></i>
-							WZ-2/4, Om Vihar Phase-3,  <br>Uttam Nagar West MetroStation
+							WZ-2/4, Om Vihar Phase-3,  <br>Uttam Nagar, Delhi - 110059
 						</li>
 						<li><i class="icon-phone"></i> 9818418721, 9582505592</li>
 						<li><i class="icon-envelope"></i>info@genithub.com</li>
@@ -916,7 +958,7 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 		<div class="container">
 			<div class="">
 				<div class="col-md-12 text-center">
-					<p>Copyright &copy;2016 genIThub. All rights reserved. <br></p>
+					<p>Copyright &copy;2017 genIThub. All rights reserved. <br></p>
 					
 				</div>
 			</div>
@@ -952,8 +994,7 @@ Read on to find out...<br><br><br><a style="text-decoration:none;" class="btn bt
 	<script src="public/js/jquery.magnific-popup.min.js"></script>
 	<script src="public/js/magnific-popup-options.js"></script>
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="public/js/google_map.js"></script>
+	
 
 	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
 	<script src="public/js/jquery.style.switcher.js"></script>

@@ -45,3 +45,13 @@
 [08-Oct-2016 16:59:12 UTC] PHP Fatal error:  require(): Failed opening required '/home/dalip/public_html/genithub.com/bootstrap/../vendor/autoload.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/dalip/public_html/genithub.com/bootstrap/autoload.php on line 17
 [08-Oct-2016 16:59:12 UTC] PHP Warning:  require(/home/dalip/public_html/genithub.com/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/dalip/public_html/genithub.com/bootstrap/autoload.php on line 17
 [08-Oct-2016 16:59:12 UTC] PHP Fatal error:  require(): Failed opening required '/home/dalip/public_html/genithub.com/bootstrap/../vendor/autoload.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/dalip/public_html/genithub.com/bootstrap/autoload.php on line 17
+[27-Nov-2016 06:47:20 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '(' in /home/dalip/public_html/genithub.com/storage/framework/views/bb0a279ba20e08e0f97b30696b181457 on line 11
+[27-Nov-2016 06:48:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/dalip/public_html/genithub.com/storage/framework/views/bb0a279ba20e08e0f97b30696b181457 on line 18
+[27-Nov-2016 06:49:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/dalip/public_html/genithub.com/storage/framework/views/bb0a279ba20e08e0f97b30696b181457 on line 18
+[30-Nov-2016 11:32:32 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '&' or variable (T_VARIABLE) in /home/dalip/public_html/genithub.com/app/Http/Controllers/submit.php on line 59
+[03-Feb-2017 16:24:00 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/dalip/public_html/genithub.com/storage/framework/views/bb0a279ba20e08e0f97b30696b181457 on line 11
+[03-Feb-2017 16:24:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/dalip/public_html/genithub.com/storage/framework/views/bb0a279ba20e08e0f97b30696b181457 on line 11
+[03-Feb-2017 16:27:19 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/dalip/public_html/genithub.com/storage/framework/views/bb0a279ba20e08e0f97b30696b181457 on line 13
+[03-Feb-2017 16:27:58 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/dalip/public_html/genithub.com/storage/framework/views/bb0a279ba20e08e0f97b30696b181457 on line 13
+[03-Feb-2017 16:29:31 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/dalip/public_html/genithub.com/storage/framework/views/bb0a279ba20e08e0f97b30696b181457 on line 11
+[03-Feb-2017 16:29:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/dalip/public_html/genithub.com/storage/framework/views/bb0a279ba20e08e0f97b30696b181457 on line 11

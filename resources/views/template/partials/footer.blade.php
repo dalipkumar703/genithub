@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="">
 				<div class="col-md-12 text-center">
-					<p>&copy;  All Rights Reserved. <br><a href="http://genithub.com" target="_blank"></a>  <a href="http://pexels.com/" target="_blank"></a> <a href="http://plmd.me/" target="_blank"></a></p>
+					<p>&copy; 2017 &nbsp; All Rights Reserved. <br><a href="http://genithub.com" target="_blank"></a>  <a href="http://pexels.com/" target="_blank"></a> <a href="http://plmd.me/" target="_blank"></a></p>
 					
 				</div>
 			</div>

@@ -54,6 +54,14 @@ class submit extends Controller
  {
   return view('template/default')->with('info','hi');
  }
+  public function sendMail()
+{
+  $data=array();
+   Mail::send('mail',$data,function($m) use($data) {
+			$m->to('genithub@gmail.com')->subject('Welcome to genIThub.');
+		  });
+   return view('mail');
+}
 }
 
 ?>

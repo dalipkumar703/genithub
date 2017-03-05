@@ -22,7 +22,7 @@
 	<meta name="twitter:card" content="" />
      
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="public/images/favicon.ico">
+	<link rel="shortcut icon" href="public/images/genithub.jpg">
 
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400 italic,700' rel='stylesheet' type='text/css'>
@@ -55,7 +55,7 @@
 	<link rel="stylesheet" href="public/css/style.css">
 
 	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
-	<link rel="stylesheet" id="theme-switch" href="public/css/style.css">
+	
 	<!-- End demo purposes only -->
 
 
@@ -69,7 +69,31 @@
 	<!--[if lt IE 9]>
 	<script src="public/js/respond.min.js"></script>
 	<![endif]-->
+        <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Voltaire" rel="stylesheet">
+        <style>
+         p {
+          font-family: 'Dosis', sans-serif;
+           }
+         h1 {
+              
+
+    font-family: 'David Libre', serif;
+
+
+            }
+         .fontVoltaire{
+
+         font-family: 'Voltaire', sans-serif;
+
+         }
+         .fontDosis{
+          font-family: 'Dosis', sans-serif;
+
+          }
+        </style>
 	</head>
 	<body>
 			  
