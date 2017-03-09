@@ -16,12 +16,12 @@
         <meta name="msvalidate.01" content="B316FE83386B965094DC742A527EF8F1" />
   	<!-- Facebook and Twitter integration -->
 	<meta name="og_title" property="og:title" content="genIThub.com | Web-Android Development Company"/>
-	<meta name="og_image" property="og:image" content="http://genithub.com/images/cardFront.jpg"/>
+	<meta name="og_image" property="og:image" content="http://genithub.com/public/images/cardFront.jpg"/>
 	<meta name="og_url" property="og:url"  content="http://www.genithub.com"/>
 	<meta name="og_site_name" property="og:site_name" content="genIThub"/>
 	<meta property="og:description" content="Web android Development company in india."/>
 	<meta name="twitter:title" content="genIThub.com | Web-Android Development Company" />
-	<meta name="twitter:image" content="http://genithub.com/images/cardFront.jpg" />
+	<meta name="twitter:image" content="http://genithub.com/public/images/cardFront.jpg" />
 	<meta name="twitter:url" content="http://www.genithub.com" />
         
 	<meta name="twitter:card" content="" />
@@ -29,21 +29,21 @@
         <meta name="p:domain_verify" content="9d4d5fe9dc8c026a89ea895891328256"/>
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="images/genithub.jpg">
+	<link rel="shortcut icon" href="public/images/genithub.jpg">
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400 italic,700' rel='stylesheet' type='text/css'>
 	
 
 <!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="public/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="public/css/icomoon.css">
 	<!-- Simple Line Icons -->
-	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<link rel="stylesheet" href="public/css/simple-line-icons.css">
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="public/css/magnific-popup.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="public/css/bootstrap.css">
 
 	<!-- 
 	Default Theme Style 
@@ -58,10 +58,10 @@
 	7. green.css
 
 	-->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="public/css/style.css">
 
 	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
-	<link rel="stylesheet" id="theme-switch" href="css/style.css">
+	<link rel="stylesheet" id="theme-switch" href="public/css/style.css">
         
        
         
@@ -85,7 +85,7 @@
 
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
+	<script src="public/js/respond.min.js"></script>
 	<![endif]-->
         <style>
          p {
@@ -143,7 +143,7 @@
             
             }
         </style>
-    	<script src="js/modernizr-2.6.2.min.js"></script>
+    	<script src="public/js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
 	<header role="banner" id="fh5co-header">
@@ -175,7 +175,7 @@
 		  </div>
 	</header>
 
-    <section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
+    <section id="fh5co-home" data-section="home" style="background-image: url(public/images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
 		<div class="gradient"></div>
 		<div class="container">
 			<div class="text-wrap">
@@ -297,7 +297,7 @@
 	<section id="fh5co-intro">
 		<div class="container">
 			<div class="row row-bottom-padded-lg">
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
+				<div class="fh5co-block to-animate" style="background-image: url(public/images/img_7.jpg);">
 
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
@@ -309,7 +309,7 @@
 					</div>
 				</div>
 
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
+				<div class="fh5co-block to-animate" style="background-image: url(public/images/img_8.jpg);">
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
 					<div class="fh5co-text">
@@ -320,7 +320,7 @@
 						<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Contact</a></p>
 					</div>
 				</div>
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
+				<div class="fh5co-block to-animate" style="background-image: url(public/images/img_10.jpg);">
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
 					<div class="fh5co-text">
@@ -360,8 +360,8 @@
                 <div class="row">
 				<div class="col-md-6 col-sm-6 col-xxs-12">
                                                                                                      
-					<a href="images/rees52.png"  class="fh5co-project-item image-popup to-animate" >
-						<img src="images/rees52.png" alt="Image" class="img-responsive">
+					<a href="public/images/rees52.png"  class="fh5co-project-item image-popup to-animate" >
+						<img src="public/images/rees52.png" alt="Image" class="img-responsive">
 		                 	<div class="fh5co-text">
 						<h2>http://dev.rees52.com</h2>
                                                             
@@ -370,8 +370,8 @@
 					</a>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xxs-12">
-					<a href="images/bvulive.png" class="fh5co-project-item image-popup to-animate">
-						<img src="images/bvulive.png" alt="Image" class="img-responsive">
+					<a href="public/images/bvulive.png" class="fh5co-project-item image-popup to-animate">
+						<img src="public/images/bvulive.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>http://bvulive.in</h2>
 						<span>Website</span>
@@ -381,8 +381,8 @@
 				</div>
 				<div class="row">
                                 <div class="col-md-6 col-sm-6 col-xxs-12">
-					<a href="images/ipevents.png" class="fh5co-project-item image-popup to-animate">
-						<img src="images/ipevents.png" alt="Image" class="img-responsive">
+					<a href="public/images/ipevents.png" class="fh5co-project-item image-popup to-animate">
+						<img src="public/images/ipevents.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>http://ezmart.in</h2>
 						<span>Website</span>
@@ -390,8 +390,8 @@
 					</a>
 				</div>
                                 <div class="col-md-6 col-sm-6 col-xxs-12">
-					<a href="images/loopback.png" class="fh5co-project-item image-popup to-animate">
-						<img src="images/loopback.png" alt="Image" class="img-responsive">
+					<a href="public/images/loopback.png" class="fh5co-project-item image-popup to-animate">
+						<img src="public/images/loopback.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>http://loopback-services.com</h2>
 						<span>Website</span>
@@ -446,7 +446,7 @@
 							<p>&ldquo;I am really happy with the website because they delivered it well within the proposed time. Also the quality of work is commendable!&rdquo;</p>
 						</blockquote>
 						<div class="author to-animate">
-							<figure><img src="images/person1.jpg" alt="Person"></figure>
+							<figure><img src="public/images/person1.jpg" alt="Person"></figure>
 							<p>
 							Danny, Public Relations<span class="subtext">ezmart.in</span>
 							</p>
@@ -459,7 +459,7 @@
 							<p>&ldquo;They do work hard and completed my e-commerce website on time.I really like their approach.&rdquo;</p>
 						</blockquote>
 						<div class="author to-animate">
-							<figure><img src="images/person2.jpg" alt="Person"></figure>
+							<figure><img src="public/images/person2.jpg" alt="Person"></figure>
 							<p>
 						 	Siddhant, Creative Head<a href="#" target="_blank"></a> <span class="subtext">bvulive.in</span>
 							</p>
@@ -473,7 +473,7 @@
 							<p>&ldquo;Customer Support is good. They helped me to change my project after 6 months of the inception. &rdquo;</p>
 						</blockquote>
 						<div class="author to-animate">
-							<figure><img src="images/person3.jpg" alt="Person"></figure>
+							<figure><img src="public/images/person3.jpg" alt="Person"></figure>
 							<p>
 							Ayush, Director<a href="#" target="_blank"></a> <span class="subtext">Rees52</span>
 							</p>
@@ -506,7 +506,7 @@
           
 		 <div class="col-md-6">
 					<div class="fh5co-person text-center to-animate text-center text-center" style="text-align: -moz-center;">
-						<img src="images/adsense.jpg" alt="Google AdSense" class="img-responsive" style="max-height:257px;margin: 0 auto;"><br>
+						<img src="public/images/adsense.jpg" alt="Google AdSense" class="img-responsive" style="max-height:257px;margin: 0 auto;"><br>
 						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/google-adsense-basic/">Google’s AdSense – What is it? How to get started?</a></span>
 						<div style="line-height:195%;"><br/></div>
 						
@@ -519,7 +519,7 @@
 					<div class="fh5co-person text-center to-animate text-center" style="text-align: -moz-center;">
 					
 					
-						<img src="images/grammarly.png" alt="Grammarly" class="img-responsive" style="max-height:257px;margin: 0 auto;"><br>
+						<img src="public/images/grammarly.png" alt="Grammarly" class="img-responsive" style="max-height:257px;margin: 0 auto;"><br>
 						
 						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/grammarly-free/">Grammarly – What is it? How to use it for free?</a></span>
 						<div style="line-height:195%;"><br/><br /></div>
@@ -534,7 +534,7 @@
                                 <div class="row">	
                                 <div class="col-md-6">
 					<div class="fh5co-person text-center to-animate text-center" style="text-align: -moz-center;">
-						<img src="images/torrenting.jpg" alt="Best Torrenting Sites 2016" class="img-responsive" style="max-height:245.5px;margin: 0 auto;"><br>
+						<img src="public/images/torrenting.jpg" alt="Best Torrenting Sites 2016" class="img-responsive" style="max-height:245.5px;margin: 0 auto;"><br>
 						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/best-torrenting-sites-2016/">Best Torrenting Sites 2016
 </a></span><div style="line-height:195%;"><br/></div>
 						
@@ -544,7 +544,7 @@
 				</div>	
 <div class="col-md-6">
 					<div class="fh5co-person text-center to-animate text-center" style="text-align: -moz-center;">
-						<img src="images/adwords.png" alt="Google AdWords" class="img-responsive" style="max-height:245.5px;margin: 0 auto;"><br>
+						<img src="public/images/adwords.png" alt="Google AdWords" class="img-responsive" style="max-height:245.5px;margin: 0 auto;"><br>
 						<span class="blog-title"><a target="_blank" style="text-decoration:none;color:#545454;" href="http://blog.genithub.com/introduction-google-adwords/">Introduction to Google AdWords – What is it?</a></span>
 <div style="line-height:195%;"><br/></div>
 						<p>We all must have heard the term ” Digital Marketing “, which is nothing but marketing with the help of electronic media. Google AdWords is just another type of Digital Marketing technique used by businesses to drive users onto their website, thus increasing their sales. Today, we will introduce the notion of Google AdWords to...
@@ -769,7 +769,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/nikhil.jpg" alt="Nikhil Arora" class="img-responsive" style="max-height:120px;"></figure>
+						<figure><img src="public/images/nikhil.jpg" alt="Nikhil Arora" class="img-responsive" style="max-height:120px;"></figure>
 						<h3>Nikhil Arora</h3>
 						<span class="fh5co-position">Developer</span>
 						<p>I have expertise in Wordpress, Oxwall, Android App Development, Laravel Framework. Loves to convert caffeine to code!</p>
@@ -782,7 +782,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/dalip.jpg" alt="Dalip Kumar" class="img-responsive" style="max-height:120px;"></figure>
+						<figure><img src="public/images/dalip.jpg" alt="Dalip Kumar" class="img-responsive" style="max-height:120px;"></figure>
 						<h3>Dalip</h3>
 						<span class="fh5co-position">Web - Developer</span>
 						<p>My focus resides in developing E-Commerce projects. Laravel Framework, SEO are some of the other weapons in my kit. </p>
@@ -795,7 +795,7 @@
 				</div>
 <div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/shubhamjain.jpg" alt="Shubham Jain" class="img-responsive" style="max-height:120px;"></figure>
+						<figure><img src="public/images/shubhamjain.jpg" alt="Shubham Jain" class="img-responsive" style="max-height:120px;"></figure>
 						<h3>Shubham Jain</h3>
 						<span class="fh5co-position">Web - Developer</span>
 						<p>Loves to play with the web-frameworks that are there in the market. Currently, holds an expertise in Angular JS, Bootstrap and Wordpress.</p>
@@ -812,7 +812,7 @@
                           <div class="row" style="margin-top:60px;">
                                <div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/saumya.jpg" alt="Saumya Tiwari" class="img-responsive" style="max-height:120px;"></figure>
+						<figure><img src="public/images/saumya.jpg" alt="Saumya Tiwari" class="img-responsive" style="max-height:120px;"></figure>
 						<h3>Saumya Tiwari</h3>
 						<span class="fh5co-position">Documentation Head</span>
 						<p>I love to do creative writing and that is what I am entitled to do here. My skillset includes creative writing with website development.</p>
@@ -826,7 +826,7 @@
 				
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/ashwin.jpg" alt="Ashwin Jayaprakash" class="img-responsive" style="max-height:120px;"></figure>
+						<figure><img src="public/images/ashwin.jpg" alt="Ashwin Jayaprakash" class="img-responsive" style="max-height:120px;"></figure>
 						<h3>Ashwin</h3>
 						<span class="fh5co-position">Creative Head</span>
 						<p>I am a creative writer by blood with a mix of android development. Be there to watch my piece of work!</p><br />
@@ -839,7 +839,7 @@
 				</div>
                                 <div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/karan.jpg" alt="Karan Singh" class="img-responsive" style="max-height:120px;"></figure>
+						<figure><img src="public/images/karan.jpg" alt="Karan Singh" class="img-responsive" style="max-height:120px;"></figure>
 						<h3>Karan Aulakh</h3>
 						<span class="fh5co-position">Marketing Head</span>
 						<p>Marketing is the word that defines me, be it of any type. The responsibility of representing this company at all levels lies on my shoulders.</p>
@@ -986,30 +986,30 @@
 	
 	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="public/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="public/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="public/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="public/js/jquery.waypoints.min.js"></script>
 	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
+	<script src="public/js/jquery.stellar.min.js"></script>
 	<!-- Counter -->
-	<script src="js/jquery.countTo.js"></script>
+	<script src="public/js/jquery.countTo.js"></script>
 	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+	<script src="public/js/jquery.magnific-popup.min.js"></script>
+	<script src="public/js/magnific-popup-options.js"></script>
 	<!-- Google Map -->
 	
 
 	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
-	<script src="js/jquery.style.switcher.js"></script>
+	<script src="public/js/jquery.style.switcher.js"></script>
 
 	<!-- End demo purposes only -->
 
 	<!-- Main JS (Do not remove) -->
-	<script src="js/main.js"></script>
+	<script src="public/js/main.js"></script>
 
 	</body>
 </html>
