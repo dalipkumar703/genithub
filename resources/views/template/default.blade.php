@@ -22,22 +22,22 @@
 	<meta name="twitter:card" content="" />
      
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="public/images/favicon.ico">
+	<link rel="shortcut icon" href="images/genithub.jpg">
 
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400 italic,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="public/css/animate.css">
-         <link rel="stylsheet" href="public/css/internal.css">
+	<link rel="stylesheet" href="css/animate.css">
+         <link rel="stylsheet" href="css/internal.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="public/css/icomoon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Simple Line Icons -->
-	<link rel="stylesheet" href="public/css/simple-line-icons.css">
+	<link rel="stylesheet" href="css/simple-line-icons.css">
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="public/css/magnific-popup.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="public/css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 
 	<!-- 
 	Default Theme Style 
@@ -52,10 +52,10 @@
 	7. green.css
 
 	-->
-	<link rel="stylesheet" href="public/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
-	<link rel="stylesheet" id="theme-switch" href="public/css/style.css">
+	
 	<!-- End demo purposes only -->
 
 
@@ -67,9 +67,33 @@
 	<script src="pulic/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-	<script src="public/js/respond.min.js"></script>
+	<script src="js/respond.min.js"></script>
 	<![endif]-->
+        <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Voltaire" rel="stylesheet">
+        <style>
+         p {
+          font-family: 'Dosis', sans-serif;
+           }
+         h1 {
+              
+
+    font-family: 'David Libre', serif;
+
+
+            }
+         .fontVoltaire{
+
+         font-family: 'Voltaire', sans-serif;
+
+         }
+         .fontDosis{
+          font-family: 'Dosis', sans-serif;
+
+          }
+        </style>
 	</head>
 	<body>
 			  
@@ -81,26 +105,26 @@
  @include('template.partials.footer')
  
 <!-- jQuery -->
-	<script src="public/js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="public/js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="public/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="public/js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Stellar arallax -->
-	<script src="public/js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Counter -->
-	<script src="public/js/jquery.countTo.js"></script>
+	<script src="js/jquery.countTo.js"></script>
 	<!-- Magnific Popup -->
-	<script src="public/js/jquery.magnific-popup.min.js"></script>
-	<script src="public/js/magnific-popup-options.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
 	<!-- Google Map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="public/js/google_map.js"></script>
+	<script src="js/google_map.js"></script>
 
 	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
-	<script src="public/js/jquery.style.switcher.js"></script>
+	<script src="js/jquery.style.switcher.js"></script>
 	<script>
 		$(function(){
 			$('#colour-variations ul').styleSwitcher({
@@ -119,7 +143,7 @@
 	<!-- End demo purposes only -->
 
 	<!-- Main JS (Do not remove) -->
-	<script src="public/js/main.js"></script>
+	<script src="js/main.js"></script>
  
   </body>
   </html>

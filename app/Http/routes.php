@@ -43,5 +43,28 @@ Route::get('/saumyatiwari',function() {
 Route::get('feedback',function() {
   return view('feedback');
 });
+Route::get('portfolio',function() {
+return view('portfolio');
 });
+Route::get('mail',[
+ 'uses'=>'submit@sendMail',
+  'as'=> 'sendmail',
+]);
+Route::get('ecommerce-development',function() {
+return view('ecommerce');
+});
+
+Route::get('web-design',function() {
+return view('webdesign');
+});
+
+Route::get('android-app-development',function() {
+return view('appdesign');
+});
+
+Route::get('design',function() {
+return view('design');
+});
+});
+
 
