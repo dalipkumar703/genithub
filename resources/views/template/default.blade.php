@@ -22,22 +22,22 @@
 	<meta name="twitter:card" content="" />
      
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="images/genithub.jpg">
+	<link rel="shortcut icon" href="public/images/genithub.jpg">
 
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400 italic,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-         <link rel="stylsheet" href="css/internal.css">
+	<link rel="stylesheet" href="public/css/animate.css">
+         <link rel="stylsheet" href="public/css/internal.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="public/css/icomoon.css">
 	<!-- Simple Line Icons -->
-	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<link rel="stylesheet" href="public/css/simple-line-icons.css">
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="public/css/magnific-popup.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="public/css/bootstrap.css">
 
 	<!-- 
 	Default Theme Style 
@@ -52,7 +52,7 @@
 	7. green.css
 
 	-->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="public/css/style.css">
 
 	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
 	
